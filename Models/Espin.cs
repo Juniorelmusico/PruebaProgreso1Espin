@@ -8,16 +8,16 @@ namespace PruebaProgreso1Espin.Models
         [Key]
         private int DNI { get; set; }
 
-        private float? Calificacion; { get; set; }
+        private float? Calificacion  { get; set; }
 
         [Required]
-        private string Nombre;{ get; set; }
+        private string Nombre { get; set; }
 
         [Required]
-        private bool Ecuatoriano;{ get; set; }
+        private bool Ecuatoriano { get; set; }
 
         [Required]
-        private DateTime Nacimiento;{ get; set; }
+        private DateTime Nacimiento { get; set; }
 
         [Required, ForeignKey("Carrera ID")]
 
