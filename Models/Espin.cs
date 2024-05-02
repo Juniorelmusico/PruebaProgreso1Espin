@@ -21,8 +21,8 @@ namespace PruebaProgreso1Espin.Models
 
         [Required, ForeignKey("Carrera ID")]
 
-        private int CarreraID;
-        private Carrera? Carrera;
-        
+        private int CarreraID { get; set; }
+        private Carrera? Carrera { get; set; }
+
     }
 }
