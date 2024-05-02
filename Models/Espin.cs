@@ -19,10 +19,12 @@ namespace PruebaProgreso1Espin.Models
         [Required]
         private DateTime Nacimiento { get; set; }
 
+        private bool Ecuatoriano;
+        private DateTime Nacimiento;
         [Required, ForeignKey("Carrera ID")]
 
         private int CarreraID { get; set; }
         private Carrera? Carrera { get; set; }
-
+        
     }
 }
